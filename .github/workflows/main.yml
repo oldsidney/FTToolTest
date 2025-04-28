@@ -24,7 +24,8 @@ jobs:
     steps:
       - name: 到 FTToolLauncher 目錄
         run: cd c:\FTToolsLauncher
-
-      - name: 執行 FTToolsLauncher
         run: .\FTToolsLauncher_net48.exe -paramfile RunALM.properties
+
+      # - name: 執行 FTToolsLauncher
+      #  run: .\FTToolsLauncher_net48.exe -paramfile RunALM.properties
         
