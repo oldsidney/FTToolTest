@@ -23,7 +23,8 @@ jobs:
     # 作為 Job 的一部分，Steps 會循序執行一連串的動作
     steps:
       - name: 到 FTToolLauncher 目錄
-        run: cd c:\FTToolsLauncher;.\FTToolsLauncher_net48.exe -paramfile RunALM.properties
+        # run: cd c:\FTToolsLauncher;.\FTToolsLauncher_net48.exe -paramfile RunALM.properties
+        run: cd c:\FTToolsLauncher;.\FTToolsLauncher.exe -paramfile RunALM.properties
 
       # - name: 執行 FTToolsLauncher
       #  run: .\FTToolsLauncher_net48.exe -paramfile RunALM.properties
