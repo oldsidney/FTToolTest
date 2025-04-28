@@ -26,5 +26,5 @@ jobs:
         run: cd c:\FTToolsLauncher
 
       - name: 執行 FTToolsLauncher
-        run: FTToolsLauncher_net48.exe -paramfile RunALM.properties
+        run: .\FTToolsLauncher_net48.exe -paramfile RunALM.properties
         
