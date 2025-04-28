@@ -1,4 +1,4 @@
-48# workflow 名稱
+# workflow 名稱
 name: RunFTToolsLauncher
 
 # 什麼情況下觸發 workflow
