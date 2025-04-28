@@ -1,4 +1,4 @@
-# workflow 名稱
+48# workflow 名稱
 name: RunFTToolsLauncher
 
 # 什麼情況下觸發 workflow
@@ -26,5 +26,5 @@ jobs:
         run: cd c:\FTToolsLauncher
 
       - name: 執行 FTToolsLauncher
-        run: FTToolsLauncher.exe -paramfile RunALM.properties
+        run: FTToolsLauncher_net48.exe -paramfile RunALM.properties
         
